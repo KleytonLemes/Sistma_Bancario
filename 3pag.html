@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/3pag.css">
+    <link rel="stylesheet" href="../CSS/Font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <title> Sistema Bancario </title>
+</head>
+<body>
+<div class="contBk"> 
+
+ <header>
+    <div class="divlogo">
+        <a href="">
+            <img class="logo"
+src="data:image/jpeg;base64,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" >
+        </a>
+    </div>
+
+    <div class="tituloRelogio"> 
+        <p class="cabecaTitulo"> O banco da sua vida </p>
+
+        <div class="relogio">
+            <div id="relogio" class="relogio" onload="showTime()">
+            </div>
+    
+    </div>
+    
+ </header>
+
+
+
+ <div class="contTituloEscolhas">
+    <h3> Escolha a opção desejada </h3>
+ </div>
+ 
+
+<div class="contEscolhas">
+
+ <div class="contOpsEsqueda">
+
+    <button class="bt" id="ptDeposito" onclick="realizarDeposito()">
+    <div class="contOps1">
+        <i class="fa-solid fa-caret-left icones" style="color: #163569;"></i>
+    
+        <p> DEPOSITAR </p>  
+
+        <i class="fa-solid fa-money-bill icones" style="color: #27179b;"></i>
+    </div>
+    </button>
+
+
+    <button class="bt" onclick="verificarSaldo()">
+    <div class="contOps1">
+        <i class="fa-solid fa-caret-left icones" style="color: #163569;"></i>
+    
+         <p> SALDO E EXTRATOS </p> 
+
+        <i class="fa-solid fa-receipt icones" style="color: #2b4573;"></i>
+    </div>
+    </button>
+
+
+    <button class="bt" onclick="realizarSaque()">
+    <div class="contOps1">
+        <i class="fa-solid fa-caret-left icones" style="color: #163569;"></i>
+    
+         <p> SACAR SEU DINHEIRO </p>
+
+        <i class="fa-solid fa-money-bill-trend-up icones" style="color: #2b5297;"></i>
+    </div>
+    </button>
+
+    <button class="bt" onclick="pagarContas()">
+    <div class="contOps1">
+        <i class="fa-solid fa-caret-left icones" style="color: #163569;"></i>
+    
+         <p> PAGAR CONTAS </p>
+
+        <i class="fa-solid fa-file-invoice-dollar icones" style="color: #27467c;"></i>
+    </div>
+    </button>
+
+ </div>
+
+
+
+
+
+ <div class="contOpsEsqueda">
+
+    <button class="bt" id="ptEmprestimo" onclick="realizarEmprestimo()" >
+    <div class="contOps1">
+        <i class="fa-solid fa-hand-holding-dollar icones" style="color: #254a88;"></i>
+    
+         <p> EMPRESTIMO  </p>
+
+        <i class="fa-solid fa-caret-right icones" style="color: #3678a1;"></i>        
+    </div>
+    </button>
+
+
+    
+    <button class="bt" onclick="tranferir()">
+    <div class="contOps1">
+        <i class="fa-solid fa-money-bill-transfer icones" style="color: #2c56a0;"></i>
+    
+        <p> TRANSFERIR </p> 
+
+        <i class="fa-solid fa-caret-right icones" style="color: #3678a1;"></i>        
+    </div>
+    </button>
+
+
+    <button class="bt" onclick="cartao()" >
+    <div class="contOps1">
+        <i class="fa-solid fa-money-check icones" style="color: #13346c;"></i>
+    
+         <p> CARTÃO DE CÉDITO </p> 
+
+        <i class="fa-solid fa-caret-right icones" style="color: #3678a1;"></i>        
+    </div>
+    </button>
+
+
+
+    <button class="bt" onclick="encerrarSistema()">
+    <div class="contOps1">
+        <i class="fa-regular fa-circle-xmark icones" style="color: #2d4f8b;"></i>
+    
+        <p> FINALIZAR </p> 
+
+        <i class="fa-solid fa-caret-right icones" style="color: #3678a1;"></i> 
+    </div>
+    </button>
+
+
+
+    
+ </div>
+
+</div>
+</div>
+
+
+
+
+
+    
+
+   
+  <script src="../Scripts/sistemaBancario.js"> </script>
+</body>
+</html>
